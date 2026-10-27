@@ -1,0 +1,6 @@
+flask>=3.0
+segno>=1.6
+cryptography>=42.0     # Ed25519 certificate signatures
+pymongo[srv]>=4.6      # MongoDB / Atlas (mongodb+srv:// needs the [srv] extra)
+certifi>=2024.2.2      # CA bundle for Atlas TLS
+gunicorn>=22.0         # production server (Render)
